@@ -4,7 +4,7 @@ export const MODES = {
   medium: {key:"medium",name:"Medium", value: [35, 50],mistakes:3,hints:4 },
   hard: {key:"hard",name:"Hard", value: [50, 65],mistakes:2,hints:3 },
   extreme: {key:"extreme",name:"Extreme", value: [65, 75],mistakes:2,hints:3 },
-  godlevel: {key:"godlevel",name:"God Level", value: [75, 81],mistakes:1,hints:2 },
+  godlevel: {key:"godlevel",name:"God Level", value: [75, 81],mistakes:2,hints:2 },
 };
 export function generateRandom(min, max) {
   min = Math.ceil(min);
